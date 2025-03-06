@@ -28,15 +28,87 @@
             font-size: 1rem;
         }
 
+        h3 {
+            font-size: 1.5rem;
+        }
+
         hr {
             margin: auto;
             max-width: 40rem;
+            height: 0px;
+            color: #5f5c7e;
         }
 
         section {
             margin: auto;
             padding: 1rem;
             max-width: 30rem;
+        }
+
+        body {
+            color: #1000cc;
+            font-family: monospace;
+        }
+
+        .copy {
+            font-weight: bold;
+        }
+
+        .rainbow {
+            animation: rainbow 2.5s linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes rainbow {
+
+            100%,
+            0% {
+                color: rgb(255, 0, 0);
+            }
+
+            8% {
+                color: rgb(255, 127, 0);
+            }
+
+            16% {
+                color: rgb(255, 255, 0);
+            }
+
+            25% {
+                color: rgb(127, 255, 0);
+            }
+
+            33% {
+                color: rgb(0, 255, 0);
+            }
+
+            41% {
+                color: rgb(0, 255, 127);
+            }
+
+            50% {
+                color: rgb(0, 255, 255);
+            }
+
+            58% {
+                color: rgb(0, 127, 255);
+            }
+
+            66% {
+                color: rgb(0, 0, 255);
+            }
+
+            75% {
+                color: rgb(127, 0, 255);
+            }
+
+            83% {
+                color: rgb(255, 0, 255);
+            }
+
+            91% {
+                color: rgb(255, 0, 127);
+            }
         }
     </style>
 </head>
@@ -52,8 +124,8 @@
     </main>
 
     <footer>
-        <p>(c) 2025</p>
-        <p><a href="http://maksstep.com" target="_blank">maksstep.com</a></p>
+        <p class="rainbow copy">(c) 2025 </p>
+        <a href="http://maksstep.com" target="_blank" class="rainbow copy">maksstep.com</a>
     </footer>
 
     <script src="quotesData.js"></script>
