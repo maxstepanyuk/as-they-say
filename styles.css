@@ -1,6 +1,7 @@
 h1,
 h2,
-h3 {
+h3,
+a {
     text-align: center;
 }
 
@@ -24,6 +25,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+a {
+    display: block;
+}
+
 hr {
     margin: auto;
     max-width: 40rem;
@@ -31,10 +36,18 @@ hr {
     color: #5f5c7e;
 }
 
-section {
+section, footer {
     margin: auto;
     padding: 1rem;
     max-width: 30rem;
+}
+
+footer{
+    margin-bottom: 2rem;
+}
+
+footer p {
+    text-align: center;
 }
 
 body {
