@@ -1,3 +1,21 @@
+html {
+    color-scheme: dark light;
+}
+
+:root {
+    --text-color: #1000cc;
+    --bg-color: #ffffff;
+    --hr-color: #eeeeee;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #528cff;
+        --bg-color: #1a1a1a;
+        --hr-color: #424242;
+    }
+}
+
 h1,
 h2,
 h3,
@@ -51,8 +69,13 @@ footer p {
 }
 
 body {
-    color: #1000cc;
+    color: var(--text-color);
+    background-color: var(--bg-color);
     font-family: monospace;
+}
+
+hr {
+    color: var(--hr-color);
 }
 
 .copy {
