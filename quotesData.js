@@ -4,6 +4,7 @@ const quotes = [
     //     name: "",
     //     date: "",
     //     place: "",
+    //     source: "",
     // },
     // {
     //     quote: "",
@@ -13,7 +14,67 @@ const quotes = [
     //     ],
     //     date: "",
     //     place: "",
+    //     source: "",
     // },
+    {
+        quote: "як завжди підсипають каміння",
+        dialogue: [
+            { name: "Dayanetta", line: "Та це якийсь жах, я хотіла менше напрягатись, а вони як завжди підсипають каміння" },
+            { name: "Dayanetta", line: "Чому, чому , постійно на нас якісь челенжі і нововведення" },
+        ],
+        date: "2025_03_06",
+        place: "Telegram",
+    },
+    {
+        quote: "чому лекцію не можна на паузу?",
+        name: "Макс Степ (purpexe)",
+        date: "2025_05_08",
+        place: "Telegram",
+    },
+    {
+        quote: "Домашня Генерація",
+        dialogue: [
+            { name: "chichik (xl4tir)", line: "пам'ятаєте колись на початку зошита треба було писати \"Домашня робота\"" },
+            { name: "chichik (xl4tir)", line: "це роки були десь до 2022 року" },
+            { name: "chichik (xl4tir)", line: "від 2022 року пишуть \"Домашня Генерація\"" },
+        ],
+        date: "2025_05_08",
+        place: "Telegram",
+    },
+    {
+        quote: "максимально погано",
+        dialogue: [
+            { name: "Макс Степ (purpexe)", line: "я роблю щоб мені було максимально погано але концентровано. щоб це швидко пройшло і потім було добре" },
+        ],
+        date: "2025_04_15",
+        place: "Telegram",
+    },
+    {
+        quote: "я вмію гарно давати завдання",
+        dialogue: [
+            { name: "Макс Степ (purpexe)", line: "це ти сам придумуєш?" },
+            { name: "chichik (xl4tir)", line: "не" },
+            { name: "chichik (xl4tir)", line: "я не вмію думати" },
+            { name: "chichik (xl4tir)", line: "я вмію гарно давати завдання над якими нада думати" },
+        ],
+        date: "2025_04_15",
+        place: "Telegram",
+    },
+    {
+        quote: "нарождений кайфувати - примушений працювати",
+        name: "Макс Степ (purpexe)",
+        date: "2025_04_10",
+        place: "Telegram",
+    },
+    {
+        quote: "я обрав одне життя замість багатьох",
+        dialogue: [
+            { name: "Макс Степ (purpexe)", line: "I chose one life instead of many" },
+        ],
+        date: "2022_11_08",
+        place: "Steam",
+        source: "https://steamcommunity.com/id/Max_Stepanyuk",
+    },
     {
         quote: "і гдз нема бо книжка від університету(",
         name: "GreyXArt",
