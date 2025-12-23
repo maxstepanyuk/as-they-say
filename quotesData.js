@@ -64,7 +64,7 @@ const quotes = [
     },
     {
         quote: "Нашо вона мене спитала",
-        name: "Макс Степ (purpexe)",
+        name: "chichik (xl4tir)",
         date: "2025_06_17",
         place: "Telegram",
     },
