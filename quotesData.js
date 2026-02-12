@@ -17,6 +17,13 @@ const quotes = [
     //     source: "",
     // },
     {
+         quote: "хочу але... по ситуації",
+         name: "",
+         date: "Макс Степ (purpexe)",
+         place: "Telegram",
+         source: "2024_06_03",
+    },
+    {
         quote: "звіт це ще той десерт",
         name: "Макс Степ (purpexe)",
         date: "2025_12_17",
