@@ -17,6 +17,24 @@ const quotes = [
     //     source: "",
     // },
     {
+        quote: "Зараз, напевно, кожен другий - програміст, а кожен третій - тестувальник",
+        name: "Макс Степ (purpexe)",
+        date: "2025_05_25",
+        place: "Telegram",
+    },
+    {
+        quote: "ого, інді не такі вже інді",
+        name: "Макс Степ (purpexe)",
+        date: "2024_07_05",
+        place: "Telegram",
+    },
+    {
+        quote: "Ну я приємний",
+        name: "chichik (xl4tir)",
+        date: "2025_02_15",
+        place: "Telegram",
+    },
+    {
         quote: "хочу але... по ситуації",
         name: "Макс Степ (purpexe)",
         place: "Telegram",
